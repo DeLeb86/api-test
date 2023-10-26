@@ -16,4 +16,4 @@ async def root():
 @app.get("/hello")
 async def say_hello(user: str = "Anonymous"):
     """Route that will return 'hello {user}'."""
-    return {"Message": f"Hello {user}!"}
+    return {"Message": f"Hello {user}! on est ajour"}
